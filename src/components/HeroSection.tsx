@@ -58,7 +58,8 @@ function HeroSection() {
             </a>
             <a
               className="border border-green-700 inline-block ml-2 p-2 rounded-full text-green-700 text-center w-32"
-              href=""
+              download="my resume"
+              href="src\resume\Ifeanyichukwu-Okorie.pdf"
             >
               Download CV
             </a>
