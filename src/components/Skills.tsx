@@ -14,7 +14,7 @@ import Skill from "./Skill";
 function Skills() {
   return (
     <section className="lg:px-20 p-4" id="skill">
-      <h2 className="font-bold text-green-700 text-xl">SKILLS</h2>
+      <h2 className="font-bold mb-4 text-green-700 text-xl">Skills</h2>
       <div className="gap-4 grid grid-cols-2">
         <Skill icon={<SiHtml5 />} level={90} skill="HTML5" />
         <Skill icon={<SiCss3 />} level={85} skill="CSS3" />
