@@ -1,5 +1,6 @@
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import myPhoto from "../images/Screenshot_20230625_093225_Gallery.jpg";
+import myResume from "../resume/Ifeanyichukwu-Okorie.pdf";
 
 function HeroSection() {
   return (
@@ -60,7 +61,7 @@ function HeroSection() {
             <a
               className="border border-green-700 inline-block ml-2 p-2 rounded-full text-green-700 text-center w-32"
               download="my resume"
-              href="src\resume\Ifeanyichukwu-Okorie.pdf"
+              href={myResume}
             >
               Download CV
             </a>
