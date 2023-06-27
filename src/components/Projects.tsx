@@ -1,4 +1,11 @@
 import ProjectLink from "./ProjectLink";
+import project1 from "../images/Screenshot_20230625_163557_Chrome.jpg";
+import project2 from "../images/Screenshot_20230625_163638_Chrome.jpg";
+import project3 from "../images/Screenshot_20230625_163650_Chrome.jpg";
+import project4 from "../images/Screenshot_20230625_163706_Chrome.jpg";
+import project5 from "../images/Screenshot_20230625_163813_Chrome.jpg";
+import project6 from "../images/Screenshot_20230625_163831_Chrome.jpg";
+import project7 from "../images/Screenshot_20230625_163849_Chrome.jpg";
 
 function Projects() {
   return (
@@ -11,43 +18,43 @@ function Projects() {
         <ProjectLink
           altText="image of my number guess game project"
           link="http://successfulnumberguessgame.netlify.app"
-          src="src\images\Screenshot_20230625_163557_Chrome.jpg"
+          src={project1}
           title="number guess game project"
         />
         <ProjectLink
           altText="image of my love calculator  project"
           link="http://successfullovecalculator.netlify.app"
-          src="src\images\Screenshot_20230625_163638_Chrome.jpg"
+          src={project2}
           title="love calculator  project"
         />
         <ProjectLink
           altText="image of my todo list project"
           link="http://successfultodolist.netlify.app"
-          src="src\images\Screenshot_20230625_163650_Chrome.jpg"
+          src={project3}
           title="todo list project"
         />
         <ProjectLink
           altText="image of my weather forecast project"
           link="http://successfulweatherforecast.netlify.app"
-          src="src\images\Screenshot_20230625_163706_Chrome.jpg"
+          src={project4}
           title="weather forecast project"
         />
         <ProjectLink
           altText="image of my currency conversion project"
           link="http://successfulcurrencyconversioncalculato.netlify.app"
-          src="src\images\Screenshot_20230625_163813_Chrome.jpg"
+          src={project5}
           title="currency conversion project"
         />
         <ProjectLink
           altText="image of my random password generator project"
           link="http://successfulrandompasswordgenerator.netlify.app"
-          src="src\images\Screenshot_20230625_163831_Chrome.jpg"
+          src={project6}
           title="random password generator project"
         />
         <ProjectLink
           altText="image of my tic tac toe project"
           link="http://successfultictactoe.netlify.app"
-          src="src\images\Screenshot_20230625_163849_Chrome.jpg"
+          src={project7}
           title="tic tac toe project"
         />
       </div>

@@ -1,4 +1,5 @@
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import myPhoto from "../images/Screenshot_20230625_093225_Gallery.jpg";
 
 function HeroSection() {
   return (
@@ -70,7 +71,7 @@ function HeroSection() {
             <img
               alt="photo of Okorie Ifeanyichukwu Success"
               className="h-full max-h-full max-w-full object-cover rounded-md w-full"
-              src="src\images\Screenshot_20230625_093225_Gallery.jpg"
+              src={myPhoto}
             />
           </div>
         </div>
